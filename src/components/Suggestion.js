@@ -6,6 +6,7 @@ import Downshift from 'downshift';
 import { IMAGES_PATH, COVER_PLACEHOLDER } from '../config';
 import { Link } from 'react-router-dom';
 import mapGenres from '../lib/helper';
+
 const Suggestion = ({ movies,genres }) => {
     const dispatch = useDispatch();
 
